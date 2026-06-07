@@ -1,5 +1,4 @@
-@model LeaveManagementSystem1._1.Data.LeaveType
-
+@model LeaveTypeReadOnlyViewModel
 @{
     ViewData["Title"] = "Details Leave Type";
 }
@@ -18,10 +17,10 @@
         </dd>
 
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NumberOfDays)
+            @Html.DisplayNameFor(model => model.Days)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NumberOfDays)
+            @Html.DisplayFor(model => model.Days)
         </dd>
     </dl>
 </div>
